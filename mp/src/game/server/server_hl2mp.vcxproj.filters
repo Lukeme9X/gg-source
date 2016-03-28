@@ -40,6 +40,9 @@
     <Filter Include="VPC Scripts">
       <UniqueIdentifier>{A40EE377-781A-C6B9-0C7C-B3BE118D248E}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\GGS">
+      <UniqueIdentifier>{287995e8-a7ca-4421-a2fc-e141aaf2cf05}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Library Include="..\..\lib\public\choreoobjects.lib">
@@ -3553,8 +3556,11 @@
     <ClCompile Include="toolframework_server.cpp">
       <Filter>Tools Framework</Filter>
     </ClCompile>
-    <ClCompile Include="hl2mp\ggs_client.cpp">
-      <Filter>Source Files\HL2MP</Filter>
+    <ClCompile Include="ggs\ggs_client.cpp">
+      <Filter>Source Files\GGS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\shared\ggs\weapon_scripted_macros.cpp">
+      <Filter>Source Files\GGS</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
