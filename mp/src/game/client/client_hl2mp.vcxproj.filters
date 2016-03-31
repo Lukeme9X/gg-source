@@ -1946,6 +1946,9 @@
     <ClInclude Include="toolframework_client.h">
       <Filter>Tool Framework</Filter>
     </ClInclude>
+    <ClInclude Include="..\shared\ggs\weapon_ggsbase.hpp">
+      <Filter>Source Files\GGS</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="mp3player.cpp">
@@ -3509,6 +3512,12 @@
       <Filter>Tool Framework</Filter>
     </ClCompile>
     <ClCompile Include="..\shared\ggs\weapon_scripted_macros.cpp">
+      <Filter>Source Files\GGS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\shared\ggs\weapon_ggsbase.cpp">
+      <Filter>Source Files\GGS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\shared\ggs\ggs_weapon_parse.cpp">
       <Filter>Source Files\GGS</Filter>
     </ClCompile>
   </ItemGroup>

@@ -67,7 +67,12 @@ CBaseCombatWeapon::CBaseCombatWeapon()
 	// Constructor must call this
 	// CONSTRUCT_PREDICTABLE( CBaseCombatWeapon );
 
+	m_flCycleTime = GetWpnData().m_flCycleTime;
+	m_iBullets = GetWpnData().m_iBullets;
+	m_iBurst = GetWpnData().m_iBurst;
+
 	// Some default values.  There should be set in the particular weapon classes
+
 	m_fMinRange1		= 65;
 	m_fMinRange2		= 65;
 	m_fMaxRange1		= 1024;

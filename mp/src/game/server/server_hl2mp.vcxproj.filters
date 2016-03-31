@@ -1829,6 +1829,9 @@
     <ClInclude Include="toolframework_server.h">
       <Filter>Tools Framework</Filter>
     </ClInclude>
+    <ClInclude Include="..\shared\ggs\weapon_ggsbase.hpp">
+      <Filter>Source Files\GGS</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="gamedll_replay.cpp">
@@ -3560,6 +3563,12 @@
       <Filter>Source Files\GGS</Filter>
     </ClCompile>
     <ClCompile Include="..\shared\ggs\weapon_scripted_macros.cpp">
+      <Filter>Source Files\GGS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\shared\ggs\weapon_ggsbase.cpp">
+      <Filter>Source Files\GGS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\shared\ggs\ggs_weapon_parse.cpp">
       <Filter>Source Files\GGS</Filter>
     </ClCompile>
   </ItemGroup>
